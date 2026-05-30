@@ -6,7 +6,7 @@ This is the surprise port of Tarantox to SMG2!
 
 Below is a list of everything that's included:
 - The ObjectData archives for Tarantox, the Planet, the Sling Shooters, the breakable Rocks and some Mario animations.
-- The "SpiderMapBlock" ProductMapObjDataTable classes.
+- The "SpiderMapBlock" ProductMapObjDataTable classe.
 - JSON files for particle effects.
 - BTI files for particle effects.
 
