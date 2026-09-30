@@ -27,7 +27,7 @@ void TombSpiderActionCocoon::init() {
 }
 
 void TombSpiderActionCocoon::attackSensor(HitSensor* pSender, HitSensor* pReceiver) {
-    if (!MR::isPlayerInBind()) {
+    if (!MR::isPlayerInRush()) {
         MR::sendMsgPush(pReceiver, pSender);
     }
 }

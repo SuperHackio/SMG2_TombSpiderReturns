@@ -114,7 +114,7 @@ void SlingShooter::calcAnim() {
 
 void SlingShooter::exeFree() {
     mTranslation.set(*mBasePos);
-    if (MR::isPlayerInBind() && !mIsKinopioCameraFocused) {
+    if (MR::isPlayerInRush() && !mIsKinopioCameraFocused) {
         setNerve(&NrvSlingShooter::SlingShooterNrvFreeInvalid::sInstance);
     }
 }
