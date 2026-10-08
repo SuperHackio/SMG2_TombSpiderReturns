@@ -13,6 +13,7 @@
 #include "Game/Util.h"
 
 #include "Util.h"
+#include "JSystem/JUtility/JUTTexture.h"
 
 // TODO: Split into several files?
 
